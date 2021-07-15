@@ -1,5 +1,5 @@
 const arithmetic = (value, number) => {
-    return value + number;
+    return Math.random(value) + Math.random(number + Math.random());
 }
 
 let array = [1, 2, 3, 10, 5, 6];
